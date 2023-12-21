@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>Been Together</title>
+    <meta name="title" content="Been Together" />
+    <meta
+      name="description"
+      content="Tracker app to track how long we been together for."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Been Together" />
+    <meta
+      property="og:description"
+      content="Tracker app to track how long we been together for."
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Been Together" />
+    <meta
+      property="twitter:description"
+      content="Tracker app to track how long we been together for."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body
+    class="font-Anton text-white min-h-screen flex items-start justify-center"
+    style="
+      background: url('./img/bg.jpg');
+      background-size: cover;
+      background-position: center top;
+    "
+  >
+    <div class="container mt-28 w-[800px]">
+      <h1 class="text-center text-3xl">We've been together for</h1>
+
+      <div class="mt-10 flex justify-evenly">
+        <div class="days">
+          <h1 id="days" class="lg:text-8xl text-6xl">00</h1>
+          <p class="text-end">days</p>
+        </div>
+
+        <div class="hours">
+          <h1 id="hours" class="lg:text-8xl text-6xl">00</h1>
+          <p class="text-end">hours</p>
+        </div>
+
+        <div class="minutes">
+          <h1 id="minutes" class="lg:text-8xl text-6xl">00</h1>
+          <p class="text-end">minutes</p>
+        </div>
+
+        <div class="seconds">
+          <h1 id="seconds" class="lg:text-8xl text-6xl">00</h1>
+          <p class="text-end">seconds</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
