@@ -1,14 +1,14 @@
-const anni = ["16 June 2023"];
+const BD = ["11 May 2005"];
 const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
 const minutesEl = document.getElementById("minutes");
 const secondsEl = document.getElementById("seconds");
 
 function count() {
-  const anniDate = new Date(anni);
+  const BDDate = new Date(BD);
   const currentDate = new Date();
 
-  const totalSeconds = (currentDate - anniDate) / 1000;
+  const totalSeconds = (currentDate - BDDate) / 1000;
   const days = Math.floor(totalSeconds / 3600 / 24);
   const hours = Math.floor((totalSeconds / 3600) % 24);
   const minutes = Math.floor(totalSeconds / 60) % 60;
